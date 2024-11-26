@@ -1,0 +1,347 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Backend\\ASP.NET\\Explore_Dreams\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|d:\\backend\\asp.net\\explore_dreams\\explore_dreams\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\click_on.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\click_on.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\destinations.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\destinations.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\sign_in.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\sign_in.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Owner.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:Explore_Dreams\\Owner.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Book_Now.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:Explore_Dreams\\Book_Now.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\user.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\booking.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\booking.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\click_on.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\click_on.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\javascript\\html.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\javascript\\html.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Sign_in.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:Explore_Dreams\\Sign_in.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\explore_dreams\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:explore_dreams\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E234C185-4EDA-4B5F-A38B-790C1DC5D8A0}|Explore_Dreams\\Explore_Dreams.csproj|solutionrelative:Explore_Dreams\\Logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sign_in.aspx.cs",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Sign_in.aspx.cs",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Sign_in.aspx.cs",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Sign_in.aspx.cs",
+              "RelativeToolTip": "Explore_Dreams\\Sign_in.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:59:47.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Destinations.aspx",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Destinations.aspx",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Destinations.aspx",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Destinations.aspx",
+              "RelativeToolTip": "Explore_Dreams\\Destinations.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-01T11:06:17.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Click_On.aspx",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Click_On.aspx",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Click_On.aspx",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Click_On.aspx",
+              "RelativeToolTip": "Explore_Dreams\\Click_On.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-07T17:08:02.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Click_On.aspx.cs",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Click_On.aspx.cs",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Click_On.aspx.cs",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Click_On.aspx.cs",
+              "RelativeToolTip": "Explore_Dreams\\Click_On.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:35:06.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Default.aspx",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Default.aspx",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Default.aspx",
+              "RelativeToolTip": "Explore_Dreams\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-05T08:14:08.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Site.Master",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Site.Master",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Site.Master",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Site.Master",
+              "RelativeToolTip": "Explore_Dreams\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-07T14:33:32.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Login.aspx",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Login.aspx",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Login.aspx",
+              "RelativeToolTip": "Explore_Dreams\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-23T19:16:56.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Sign_in.aspx",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Sign_in.aspx",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Sign_in.aspx",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Sign_in.aspx",
+              "RelativeToolTip": "Explore_Dreams\\Sign_in.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-24T14:50:24.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "html.js",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Javascript\\html.js",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Javascript\\html.js",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Javascript\\html.js",
+              "RelativeToolTip": "Explore_Dreams\\Javascript\\html.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-23T08:16:37.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Global.asax.cs",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Global.asax.cs",
+              "RelativeToolTip": "Explore_Dreams\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T04:10:48.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Login.aspx.cs",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Login.aspx.cs",
+              "RelativeToolTip": "Explore_Dreams\\Login.aspx.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T19:43:54.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Site.Master.cs",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Site.Master.cs",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Site.Master.cs",
+              "RelativeToolTip": "Explore_Dreams\\Site.Master.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:51:40.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.aspx",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\User.aspx",
+              "RelativeDocumentMoniker": "Explore_Dreams\\User.aspx",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\User.aspx",
+              "RelativeToolTip": "Explore_Dreams\\User.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-24T12:33:35.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "About.aspx",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\About.aspx",
+              "RelativeDocumentMoniker": "Explore_Dreams\\About.aspx",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\About.aspx",
+              "RelativeToolTip": "Explore_Dreams\\About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-24T05:54:08.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Logout.aspx.cs",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Logout.aspx.cs",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Logout.aspx.cs",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Logout.aspx.cs",
+              "RelativeToolTip": "Explore_Dreams\\Logout.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T02:36:07.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Payment.aspx",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Payment.aspx",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Payment.aspx",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Payment.aspx",
+              "RelativeToolTip": "Explore_Dreams\\Payment.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-06T03:16:46.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Booking.aspx",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Booking.aspx",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Booking.aspx",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Booking.aspx",
+              "RelativeToolTip": "Explore_Dreams\\Booking.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-02T06:20:24.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Logout.aspx",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Logout.aspx",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Logout.aspx",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Logout.aspx",
+              "RelativeToolTip": "Explore_Dreams\\Logout.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-25T02:35:13.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Book_Now.aspx",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Book_Now.aspx",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Book_Now.aspx",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Book_Now.aspx",
+              "RelativeToolTip": "Explore_Dreams\\Book_Now.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-07T17:08:40.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Owner.aspx",
+              "DocumentMoniker": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Owner.aspx",
+              "RelativeDocumentMoniker": "Explore_Dreams\\Owner.aspx",
+              "ToolTip": "D:\\Backend\\ASP.NET\\Explore_Dreams\\Explore_Dreams\\Owner.aspx",
+              "RelativeToolTip": "Explore_Dreams\\Owner.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-24T12:34:14.76Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

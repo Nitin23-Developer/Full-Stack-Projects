@@ -1,0 +1,1058 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Explore_Dreams.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>www.explore_dreams.com</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/d6b6072cc7.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+      .waldrone{
+       
+      }
+
+     .slider {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-container {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:10px;
+  
+}
+
+.slide-content {
+  text-align: center;
+  color: white;
+  max-width: 600px;
+  margin-left:140px;
+  padding-top:80px;
+}
+
+.slider-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.slider-nav {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav-dot.active {
+  background-color: #ff5722;
+}
+
+ #peacock{
+  font-size:18px;
+ } 
+    .calling{
+        border-radius:20px;
+        width:200px;
+        height:50px;
+        margin-left:530px;
+        font-size:25px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        border:none;
+        font-weight:600;
+        background-color:red;
+        color:white;
+    }
+    #guide {
+      display: flex;
+      gap: 40px;
+      /*   border:1px solid orange; */
+      background-image: url('https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+      width: 1500px;
+      /* 100% of the viewport width */
+      height: 700px;
+      /* 100% of the viewport height */
+      background-repeat: no-repeat;
+      /* Prevents image from repeating */
+      background-position: center;
+      /* Centers the image */
+      background-size: cover;
+      /* Scales image to cover entire container */
+      background-color: #ededed;
+      margin-left:0;
+    }
+
+    #hospital {
+      /*  border:1px solid red; */
+      width: 700px;
+      height: 500px;
+      margin-bottom: 100px;
+      border-radius: 8px;
+      background-color: #ededed;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      margin-left: 30px;
+      margin-top: 580px;
+    }
+
+    #sustain {
+      /*   border: 1px solid blue; */
+      float: right;
+      width: 600px;
+      height: 500px;
+      border-radius: 8px;
+      background-color: #ededed;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      margin-left: 70px;
+      margin-top:580px;
+    }
+
+    #chief {
+      /*  border:1px solid red; */
+      width: 1500px;
+      height: 600px;
+      background-color: #ffffff;
+      margin-left:0;
+    }
+
+    #directors {
+      width: 1410px;
+      height: 560px;
+      background-color: #ededed;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      margin-left: 30px;
+      margin-top: 460px;
+      border-radius: 8px;
+    }
+
+    #helicopter {
+      background-image: url('https://images.pexels.com/photos/174524/pexels-photo-174524.jpeg?auto=compress&cs=tinysrgb&w=600');
+      width: 1500px;
+      height: 700px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      
+      margin-left:0;
+    }
+
+    .unique {
+      font-style: normal;
+      font-weight: 400;
+      color: rgb(63, 68, 72);
+      font-size: 20px;
+      Line-height: 29px;
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+
+    .bold {
+      font-style: normal;
+      font-weight: 700;
+      color: rgb(63, 68, 72);
+      font-size: 40px;
+      Line-height: 29px;
+      margin-left: 12px;
+    }
+
+    .fortune {
+      font-style: normal;
+      font-weight: 400;
+      color: rgb(63, 68, 72);
+      font-size: 21px;
+      Line-height: 29px;
+      margin-left: 12px;
+    }
+
+    .member {
+      display: flex;
+      gap: 40px;
+    }
+
+    #nitin {
+      /* border:1px solid green; */
+      height: 400px;
+      width: 340px;
+      border-radius: 8px;
+      margin-left: 40px;
+      background-image: url('a.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    #pranay {
+      /* border:1px solid green; */
+      height: 400px;
+      width: 340px;
+      border-radius: 8px;
+      background-image: url('https://images.pexels.com/photos/5648423/pexels-photo-5648423.jpeg?auto=compress&cs=tinysrgb&w=600');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    #mohit {
+      /* border:1px solid green; */
+      height: 400px;
+      width: 340px;
+      border-radius: 8px;
+      background-image: url('https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=600');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    .david {
+      padding-top: 280px;
+      margin-left: 20px;
+      font-style:normal;
+      font-weight:700;
+      color:rgb(255,255,255);
+      font-size:25px;
+      Line-height:normal;
+    }
+
+    .kerry {
+     /* border:2px solid red; */
+      width:50px;
+      height:30px;
+      margin-left: 20px;
+      border-radius:10px;
+      padding-left:10px;
+      background-color:white;
+      font-style:normal;
+      font-weight:700;
+      color:rgb(30,30,30);
+      font-size:15px;
+      Line-height:normal;
+      padding-top:2px;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+    #keyboard{
+      font-style:normal;
+      font-weight:700;
+      color:rgb(255,255,255);
+      font-size:48px;
+      Line-height:normal;
+      padding-top:250px;
+      margin-left:300px;
+    }
+     .cookie{
+   /*  border:1px solid red; */
+width:300px;
+height:200px;
+border-radius:8px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }    
+.china{
+    background-image:url("https://media.cntraveler.com/photos/59513c9a74d0a724cd4a6e48/master/pass/FairyBridgeDownstream1680-cr-archhunterde.jpg");
+    width:1450px;
+  height:800px;
+   margin-right:50px;
+}
+.sacred{
+display:flex;
+gap:80px;
+}
+.blend{
+/*border:1px solid red; */
+width:500px;
+height:450px;
+border-radius:8px;
+margin-top:180px;
+margin-left:50px;
+box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.scaling{
+  /*  border:1px solid red; */
+   width:600px;
+   height:400px;
+   color:white;
+   margin-left:20px;
+}
+#mystique{
+/* border:1px solid blue; */
+color:white;
+width:1200px;
+font-size:40px;
+padding-top:50px;
+margin-left:20px;
+}
+#vistas{
+  font-size:22px;
+}
+#details{
+    color:white;
+    margin-left:120px;
+    font-size:35px;
+}
+.access{
+   color:white;
+   font-size:20px;
+}
+    .Garden{
+      /*  border:2px solid red; */
+        width:500px;
+        height:500px;
+        border-radius:8px;
+        justify-content:center;
+        margin-top:100px;
+        margin-left:500px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        
+     }
+     #dynamic{
+        display:block;
+        height:1px;
+        font-size:25px;
+        font-weight:550;
+        margin-left:90px;
+        
+        font-family:'Times New Roman', Times, serif;
+     }
+     #welcome{
+        height:1px;
+        margin-left:80px;
+        padding-top:20px;
+     }
+     #experience{
+        display:flex;
+        height:1px;
+        margin-left:10px;
+     }
+     #Orange{
+       color:#ff591b;
+       font-weight:600;
+       font-size:40px;
+       height:1px;
+     }
+     #Blue{
+       color:#263482;
+       font-weight:600;
+       font-size:40px;
+       height:1px;
+     }
+     .store{
+         padding-top:130px;
+         margin-left:40px;
+     }
+     
+     .Armori{
+         margin-top:140px;
+         margin-left:40px;
+     }
+     #google{
+         text-decoration:none;
+        /**border:1px solid red; */
+         height:19px;
+         width:22px;
+         color:Blue;
+         background-color:#f8f8f8;
+         
+     }
+
+            .tripura{
+      height:1500px;
+      width:1450px;
+}
+#tawang{
+    background-image:url("https://images.pexels.com/photos/5204582/pexels-photo-5204582.jpeg?auto=compress&cs=tinysrgb&w=600");
+    width:1280px; 
+    height:642px; 
+    margin-left:30px;
+    margin-top:20px;
+    border-radius:8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#material{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size:50px;
+    margin-top:100px;
+    margin-left:350px;
+}
+.trip{
+    display:flex;
+    align-items:center;
+    margin-left:420px;
+    font-family:'Times New Roman', Times, serif;
+}
+#clock{
+    color:white;
+}
+#themes{
+    text-decoration:none;
+    color:white;
+    font-size:24px;
+    font-weight:550;
+    width:120px;
+    height:40px;
+    margin-left:40px;
+    align-content:center;
+ /*   border:1px solid red; */
+    background-color:#263482;
+    border-radius:8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+
+.animated-text {
+    font-size: 3em;
+    color: #333;
+    animation: fadeIn 2s ease-in-out, bounce 1s infinite alternate;
+}
+
+.animated-paragraph {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 20px;
+    animation: slideIn 1.5s ease-out;
+}
+
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+.animated-image-fade {
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    animation: fadeInOut 5s ease-in-out infinite;
+
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.robust{
+  /*  border:3px solid red; */
+    width:1450px;
+    height:350px;
+    border-radius:10px;
+    display:flex;
+    gap:10px;
+    overflow:hidden;
+    margin-right:30px;
+}
+.singapore{
+     width:400px;
+     height:320px;
+   /*  border:1px solid purple; */
+     margin-top:10px;
+     margin-left:10px;
+     border-radius:10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.japan{
+     width:400px;
+     height:320px;
+  /*   border:1px solid purple; */
+     margin-top:10px;
+     border-radius:10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.maldive{
+     width:400px;
+     height:320px;
+   /*  border:1px solid purple; */
+     margin-top:10px;
+     border-radius:10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.germany{
+     width:400px;
+     height:320px;
+   /*  border:1px solid purple; */
+     margin-top:10px;
+     border-radius:10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.oman{
+     width:400px;
+     height:320px;
+  /*   border:1px solid purple; */
+     margin-top:10px;
+     border-radius:10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+} 
+.bhutan{
+     width:400px;
+     height:320px;
+   /*  border:1px solid purple; */
+     margin-top:10px;
+     border-radius:10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+} 
+.nepal{
+     width:400px;
+     height:320px;
+  /*   border:1px solid purple;  */
+     margin-top:10px;
+     border-radius:10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.pakistan{
+     width:400px;
+     height:320px;
+    /* border:1px solid purple; */
+     margin-top:10px;
+     border-radius:10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.canada{
+     width:400px;
+     height:320px;
+    /* border:1px solid purple; */
+     margin-top:10px;
+     border-radius:10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.italy{
+     width:400px;
+     height:320px;
+  /*   border:1px solid purple; */
+     margin-top:10px;
+     border-radius:10px;
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.flight{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    float:right;
+   /* border:1px solid yellow;  */
+}
+#majuli{
+    height:200px;
+    width:390px;
+    margin-left:5px;
+    border-radius:10px;
+    margin-top:3px;
+}
+#clone{
+    font-size:20px;
+    margin-left:7px;
+    height:35px;
+}
+#rating{
+   font-size:15px;
+   color:rgb(224, 224, 19);
+   margin-left:7px;
+/*   border:1px solid red;  */
+   width:30%;
+   margin-top:10px;
+   height:1px;
+}
+#britania{
+    text-decoration:none;
+    width:100px;
+    margin-left:7px;
+    float:right;
+  /*  border:1px solid red; */
+    height:25px;
+    border-radius:10px;
+    font-weight:550;
+    background-color:#ff591b;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    color:white;
+    align-content:center;
+}
+#currency{
+   display:flex;
+   gap:10px;
+   margin-left:7px;
+   align-items:center;
+   height:13px;
+ /*  border:1px solid purple;  */
+}
+#symbol{
+   font-weight:400;
+   font-size:14px;
+   Line-height:26px;
+   color:rgb(133,146,166);
+   margin-bottom:5px;
+}
+#amalgam{
+   font-weight:700;
+   font-size:20px;
+   Line-height:26px;
+   color:rgb(15,41,77);
+   margin-bottom:8px;
+   margin-right:5px;
+}
+.slider {
+    
+   overflow: hidden;
+   border: 2px solid #ddd;
+   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.slides {
+   display: flex;
+   animation: slide 20s infinite;
+   gap:10px;
+}
+
+.slides img {
+   flex-shrink: 0;
+}
+
+/* Keyframes for slider animation */
+@keyframes slide {
+   0% { transform: translateX(0%); }
+   10% { transform: translateX(-10%); }
+   20% { transform: translateX(-20%); }
+   30% { transform: translateX(-30%); }
+   40% { transform: translateX(-40%); }
+   50% { transform: translateX(-50%); }
+   60% { transform: translateX(-60%); }
+   70% { transform: translateX(-70%); }
+   80% { transform: translateX(-80%); }
+   90% { transform: translateX(-90%); }
+   100% { transform: translateX(-100%); }
+}
+
+.Header{
+            display:flex;
+            align-items:center;
+           /* border:1px solid red; */
+            height:90px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            font-family:'Times New Roman', Times, serif;
+        }
+#blue-ship{
+    margin-left:20px;
+}
+#explore{
+   color :#ff591b;
+   font-size:40px;
+   height:30px;
+   font-weight:590;
+ }
+#explore-a{
+    color:#263482;
+    font-size:40px;
+    margin-left:51px;
+    font-weight:590;
+}
+
+.Destination{
+     margin-left:280px;
+     font-size:22px;
+     font-weight:600;
+     color:#263482;
+}
+.login{
+    text-decoration:none;
+    margin-left:30px;
+    font-size:25px;
+}
+.Guest{
+    float:right;
+    font-size:20px;
+    color:
+#263482;
+    margin-right:8px;
+}
+.karnataka{
+    display:flex;
+ /*   border:2px solid purple; */
+    justify-content:space-evenly;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.gujrat{
+ color:#ff591b;
+ font-size:20px;
+}
+.himachal{
+    text-decoration:none;
+    color:#263482;
+    font-size:16px;
+}
+#phone{
+    font-size:12px;
+}
+#message{
+    font-size:12px;
+}
+#floor{
+    font-size:25px;
+    margin-left:5px;
+    color:#263482;
+    text-decoration:none;
+    font-size:16px;
+}
+#glory{
+     font-size:25px;
+ margin-left:5px;
+ color:#263482;
+ text-decoration:none;
+ font-size:16px;
+}
+#slowly{
+     font-size:25px;
+ margin-left:5px;
+ color:#263482;
+ text-decoration:none;
+ font-size:16px;
+}
+#page{
+     font-size:25px;
+ margin-left:5px;
+ color:#263482;
+ text-decoration:none;
+ font-size:16px;
+}
+#heritage{
+    margin-left:140px;
+    font-size:40px;
+    color:#ff591b;
+}
+#warmest{
+    margin-left:140px;
+    color:#263482;
+    font-size:16px;
+}
+#world{
+    margin-left:140px;
+    color:#263482;
+}
+#home{
+    margin-left:450px;
+    color:#263482;
+}
+#chinchwad{
+    margin-left:460px;
+    color:#263482;
+}
+.Mumbai{
+  display:flex;
+}
+#Manipur{
+  border-radius:4px;
+  margin-left:50px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#Marine{
+  height:500px;
+  width:500px;
+  font-size:24px;
+  font-family:'Times New Roman', Times, serif;
+  margin-left:30px;
+  color:#a4a4a4;
+}
+#kerala{
+  border-radius:4px;
+  float:right;
+  margin-right:50px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#Corner{
+  height:500px;
+  width:500px;
+  font-size:24px;
+  font-family:'Times New Roman', Times, serif;
+  margin-left:290px;
+  color:#a4a4a4;
+}
+.Shimla{
+display:flex;
+}
+#valley{
+  border-radius:4px;
+  margin-left:50px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#Mountain{
+  height:500px;
+  width:500px;
+  font-size:24px;
+  font-family:'Times New Roman', Times, serif;
+  margin-left:30px;
+  color:#a4a4a4;
+}
+
+.animated-image-fade {
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    animation: fadeInOut 5s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+.animated-image-bounce {
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    animation: bounceImage 2s ease infinite;
+}
+
+    @keyframes bounceImage {
+        0%, 100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-20px);
+        }
+    }
+.About{
+  background-image:url(https://www.wework.com/ideas/wp-content/uploads/sites/4/2020/04/WeWork_PrivateOffice-1440x810.jpg);
+  height:810px;
+  background-attachment:fixed;
+}
+#god{
+color:#ff591b;
+margin-left:70px;
+
+}
+#Western{
+   border:2px solid red;
+   width:130px;
+   text-decoration:none;
+   height:50px;
+   margin-left:70px;
+}
+
+     .Armori{
+         margin-top:140px;
+         margin-left:40px;
+     }
+     #google{
+         text-decoration:none;
+        /**border:1px solid red; */
+         height:19px;
+         width:22px;
+         color:Blue;
+         background-color:#f8f8f8;
+         
+     }
+    
+ 
+    .auto-style1 {
+        margin-left: 12px;
+    }
+    
+ 
+</style>
+    
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+               
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+       
+         <header><!--header part starts-->
+        <div class="Header">
+            
+         <img  src="Explore.png" height="80" width="80"   />
+         <div id="blue-ship" >
+               <h1 id="explore">Explore</h1>
+               <h1 id="explore-a">Dreams</h1>
+         </div>
+            <div class="Destination">
+            <a class="login" href="http://localhost:57011/Default">Home</a>
+            <a class="login" href="http://localhost:57011/About">About Us</a>
+            <a class="login" href="http://localhost:57011/Destinations">Destinations</a>
+            <a class="login" href="#">Contacts</a>
+            <a class="login" href="http://localhost:57011/Login" target="_self">Sign Up</a>
+            <a class="login" href="http://localhost:57011/Default">Logout</a>
+            </div>
+            </div>
+                    <div class="Guest">
+            &nbsp;&nbsp;   <asp:Label ID="Label4" runat="server" ForeColor="#263482" ></asp:Label>
+            &nbsp;&nbsp;   <asp:Label ID="Label5" runat="server" Text="Label" ForeColor="#263482" ></asp:Label>
+                           <asp:Label ID="Label6" runat="server" Text="Label" ForeColor="#263482" ></asp:Label>
+        </div> 
+       </header><!--Header part ends-->
+    
+       
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+  
+        </div>
+    
+       <footer style="background-color:antiquewhite;"><!--Footer part starts-->
+        <div class="karnataka">
+<div class="state" >
+    <h3 class="gujrat">State Tourism</h3>
+    <a class="himachal" href="#">Maharashtra</a><br/>
+    <a class="himachal" href="#">Andhra Pradesh</a><br/>
+    <a class="himachal" href="#">Chhattishgarh</a><br/>
+    <a class="himachal" href="#">Gujrat</a><br/>
+    <a class="himachal" href="#">Himachal Pradesh</a><br/>
+    <a class="himachal" href="#">Karnataka</a><br/>
+    <a class="himachal" href="#">Madhya Pradesh</a><br/>
+    <a class="himachal" href="#">Manipur</a><br/>
+    <a class="himachal" href="#">Mizoram</a><br/>
+    <a class="himachal" href="#">Odisha</a><br/>
+    <a class="himachal" href="#">Rajasthan</a><br/>
+    <a class="himachal" href="#">Tamil Nadu</a><br/>
+    <a class="himachal" href="#">Tripura</a><br/>
+    <a class="himachal" href="#">Uttarakhand</a><br/>
+    <a class="himachal" href="#">Kerala</a>
+</div>
+
+<div>
+    <h3 class="gujrat">UT Toursim</h3>
+   <a class="himachal" href="#">Andaman and Nicobar</a><br/>
+   <a class="himachal" href="#">Chandigarh</a><br/>
+   <a class="himachal" href="#">Dadra and Nagar Haveli</a><br/>
+   <a class="himachal" href="#">Daman and Diu</a><br/>
+   <a class="himachal" href="#">Delhi</a><br/>
+   <a class="himachal" href="#">Jammu and Kashmir</a><br/>
+   <a class="himachal" href="#">Ladakh</a><br/>
+   <a class="himachal" href="#">Lakshadweep</a><br/>
+   <a class="himachal" href="#">Puducherry</a>
+</div>
+<div>
+<h3 class="gujrat">Popular Tourism Packages</h3>
+<a class="himachal" href="#">Gao Tourism Package</a><br/>
+<a class="himachal" href="#">Lakshadweep Toursim Package</a><br/>
+<a class="himachal" href="#">Kullu-Manali Tourism Package</a><br/>
+<a class="himachal" href="#">Rajshtan Tourism Package</a><br/>
+<a class="himachal" href="#">Kerala Tourism Package</a><br/>
+<a class="himachal" href="#">Kolkata Tourism Package</a><br/>
+<a class="himachal" href="#">Maharashtra Toursim Package</a><br/>
+<a class="himachal" href="#">TamilNadu Toursim Package</a>
+</div>
+<div>
+    <h3 class="gujrat">Contact Details</h3>
+    <p class="himachal">Bonzai Tower,<br/>13 Floor,Pimpri-Chinchwad,<br/>Pune-440013<br/><i id="phone" class="fa-solid fa-phone-volume"></i>&nbsp;91-9163395645<br/><i id="message" class="fa-solid fa-envelope"></i>&nbsp;<a href="http://www.exploredreams.com">www.exploredreams.com</a></p>
+    <div>
+     <i id="floor" class="fa-brands fa-linkedin"></i>
+     <i id="glory" class="fa-brands fa-facebook"></i>
+     <i id="slowly" class="fa-brands fa-twitter"></i>
+     <i id="page" class="fa-brands fa-instagram"></i>
+ </div>
+    <p class="himachal">&nbsp;&nbsp;&nbsp; </p>
+    <p class="himachal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Consumer&nbsp; :
+        <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style1" Width="188px"></asp:TextBox>
+        &nbsp;</p>
+    <p class="himachal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" Text="Add " OnClick="Button1_Click" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button2" runat="server" Text="View" OnClick="Button2_Click" />
+    </p>
+    <p class="himachal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Status&nbsp; :&nbsp;&nbsp;
+        <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
+        &nbsp;</p>
+   
+     
+</div>
+</div>
+<h1 id="heritage">Explore Dreams</h1>
+<p id="warmest">India has a myriad of landscapes, great heritage and culture, varied flora and fauna. The country is the most preferred tourist destinations for tourists from all across the world for its<br/> picturesque landscapes, spectacular waterfalls, habitat of the country's largest tiger reserve and home to the warmest people on earth.</p>
+<p id="world">________________________________________________________________________________________________________________________________________________</p>
+<p id="home">Privacy &nbsp;| &nbsp; Terms of Platform Use &nbsp; | &nbsp; Important Links &nbsp; | &nbsp; Emergency</p>
+
+<p id="chinchwad"><i class="fa-regular fa-copyright"></i>Explore Dreams,Bonzai Tower,13 Floor,Pimpri-Chinchwad,Pune</p>
+       </footer>
+    </form>
+    
+       <!--Footer part ends-->
+       
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/Scripts/bootstrap.js") %>
+    </asp:PlaceHolder>
+    <script>(function(){var js,fs,d=document,id="tars-widget-script",b="https://tars-file-upload.s3.amazonaws.com/bulb/";if(!d.getElementById(id)){js=d.createElement("script");js.id=id;js.type="text/javascript";js.src=b+"js/widget.js";fs=d.getElementsByTagName("script")[0];fs.parentNode.insertBefore(js,fs)}})();window.tarsSettings = {"convid": "HOC0Hx", "href": "https://chatbot.hellotars.com/conv/HOC0Hx"};</script>
+    
+   <script src="Javascript/html.js"></script> 
+</body>
+</html>
